@@ -50,6 +50,5 @@ cc -o covert_tcp covert_tcp.c
 Tcpdump captures no packets
 
 **Attacker**
-
 ./covert_tcp -dest 10.10.10.9 -source 10.10.10.13 -source_port 8888 -dest_port 9999 -file /home/attacker/Desktop/send/message.txt
 Wireshark (message string being send in individual packet)
