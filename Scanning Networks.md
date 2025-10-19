@@ -1,6 +1,6 @@
 **Scanning Networks**
 
-->** Host discovery**
+->**Host discovery**
 
 nmap -sn -PR [IP]
 -sn: Disable port scan
