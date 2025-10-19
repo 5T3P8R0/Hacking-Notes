@@ -1,6 +1,6 @@
-Scanning Networks
+**Scanning Networks**
 
--> Host discovery
+->** Host discovery**
 
 nmap -sn -PR [IP]
 -sn: Disable port scan
@@ -28,7 +28,7 @@ nmap -sn -PO [IP]
 -PO: IP Protocol Ping scan
 
 
-->Port and Service Discovery
+->**Port and Service Discovery**
 
 nmap -sT -v [IP]
 -sT: TCP connect/full open scan
@@ -65,7 +65,7 @@ nmap -A -v [IP]
 -A: Aggressive scan
 
 
-->OS Discovery
+->**OS Discovery**
 
 nmap -A -v [IP]
 -A: Aggressive scan
